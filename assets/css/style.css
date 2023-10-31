@@ -405,7 +405,6 @@ h6 {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -1050,16 +1049,30 @@ section {
 }
 
 
-ul {
+.cimer {
     list-style: none;
     padding: 0;
+    color: #000;
   }
 
-  .cimer {
-    margin: 10px 0;
-    display: flex; /* Atur margin bawah sesuai kebutuhan Anda */
-  }
+.cimer li {
+  padding-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
 
+}
+
+.cimer li+li {
+    margin-top: 15px;
+
+}
+
+.cimer i {
+  font-size: 15px;
+  color: #ffb03b;
+   position: absolute;
+  left: 0px;
+}
 
 /*--------------------------------------------------------------
 # Events
